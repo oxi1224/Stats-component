@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+.attribution { font-size: 11px; text-align: center; color: hsla(0, 0%, 100%, 0.75);}
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color:hsl(233, 47%, 7%);
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 5px;
+}
+.box1-main{
+    padding: 70px;
+    width: 46.5%;
+}
+.box1-main h1{
+    color: hsl(0, 0%, 100%);
+}
+.box1-main p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.box1-main span{
+    color: hsl(277, 64%, 61%);
+}
+.box2-main{
+    width: 53.5%;
+    border-radius: 0px 5px 5px 0px;
+    background-image: url('images/image-header-desktop.jpg');
+    background-repeat: repeat-x;
+    background-size: 100%;
+}
+.opacity{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 92%, 31%, .5);
+    border-radius: 0px 5px 5px 0px;
+}
+.box3-stats{
+    display: flex;
+    padding-top: 20%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.companies{
+    line-height: 10px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.templates{
+    line-height: 10px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.queries{
+    line-height: 10px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
