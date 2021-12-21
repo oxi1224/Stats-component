@@ -63,9 +63,12 @@ body{
     line-height: 10px;
     color: hsla(0, 0%, 100%, 0.6);
 }
-@media screen and (max-resolution: 375px){
+@media screen and (max-width: 400px){
     .box3-stats{
         flex-direction: column;
         justify-content: flex-start;
+    }
+    .box1-main{
+        padding: 20px;
     }
 }
