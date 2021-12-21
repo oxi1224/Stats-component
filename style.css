@@ -9,13 +9,11 @@ body{
     font-family: 'Inter', sans-serif;
 }
 #main{
+    margin: auto;
+    margin-top: 10%;
     display: flex;
     justify-content: space-evenly;
     width: 70%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
     background-color: hsl(244, 38%, 16%);
     border-radius: 5px;
 }
@@ -64,6 +62,9 @@ body{
     color: hsla(0, 0%, 100%, 0.6);
 }
 @media screen and (max-width: 400px){
+    #main{
+        width: 90%;
+    }
     .box3-stats{
         flex-direction: column;
         justify-content: flex-start;
@@ -75,5 +76,5 @@ body{
     .box2-main{
         background-image: url('images/image-header-mobile.jpg');
     }
-    div#pic {order: 1;}
+    div#picture {order: 1;}
 }
