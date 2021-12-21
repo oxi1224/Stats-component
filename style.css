@@ -69,6 +69,11 @@ body{
         justify-content: flex-start;
     }
     .box1-main{
+        text-align: center;
         padding: 20px;
     }
+    .box2-main{
+        background-image: url('images/image-header-mobile.jpg');
+    }
+    div#pic {order: 1;}
 }
