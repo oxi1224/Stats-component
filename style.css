@@ -63,3 +63,9 @@ body{
     line-height: 10px;
     color: hsla(0, 0%, 100%, 0.6);
 }
+@media screen and (max-resolution: 375px){
+    .box3-stats{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
